@@ -1,0 +1,40 @@
+name: ace_express_reservation_system
+description: "Bus reservation system"
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.6
+  flutter:
+    sdk: flutter
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  mysql_client: ^0.0.27
+  pretty_qr_code: ^3.3.0
+  window_manager: ^0.4.2
+  table_calendar: ^3.1.2
+  flutter_dotenv: ^5.2.1
+
+dev_dependencies:
+
+  flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - .env
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  fonts:
+    - family: PlayfairDisplay
+      fonts:
+        - asset: assets/fonts/PlayfairDisplay.ttf
